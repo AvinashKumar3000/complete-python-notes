@@ -1,0 +1,91 @@
+# python
+- Fundamentals
+    - introduction
+    - hello world program
+    - variables and its rules
+    - interpreter/ file.py 
+    - statements, semicolon
+    - input(), print()
+- Basics
+    - data types 
+        [ declare, access, modify ]
+        [ methods and its usage   ]
+        - numerics type
+            - int
+            - float
+            - complex
+        - string
+        - boolean
+        - list, tuple, set, dictionary
+    - operators
+    - operator ( priority & associativity )
+    - scope of variables
+- functions
+    - func declaration
+    - func call
+    - arguments / parameters
+    - function return
+    - annotations
+    - recursive function
+    - types of arguments 
+        - positional
+        - keyword 
+    - types of parameters
+        - positional
+        - keyword
+        - var arg
+        - var keyword arg
+    - call by value / call by reference
+    - packing vs unpacking
+- control statements
+    - if 
+    - if else
+    - if else ladder ( elif )
+    - nested if
+    - while
+    - nested while
+    - for 
+    - nested for
+    - break / continue / pass
+    - return 
+- inbuild functions
+    - input(), print()
+    - range(), ord(), chr()
+    - math.random()
+    - math.floor()
+    - math.ceil()
+    - id()
+    - enumerate()
+    - help()
+    - dir()
+    - map() / filter() 
+- comprehension 
+    - list comprehension
+    - nested list comprehension
+    - dictionary comprehension
+- oops
+    - class / object 
+    - types of variables
+        - class variable
+        - instance variable
+    - types of method
+        - instance method
+        - static method
+        - class method
+    - constructor / destructor
+    - abstraction
+    - data hiding
+    - inheritance 
+        - single
+        - multiple
+        - multilevel
+        - hierarchical
+        - hybrid
+    - encapsulation
+    - polymorphism
+- Exception handling
+- File handling
+- package concept
+- pip3 install ? 
+- venv ( virtual environment ) requirements.txt
+
