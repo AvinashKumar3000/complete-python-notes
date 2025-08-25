@@ -237,5 +237,80 @@ a,b,c,d = fn()
 
 
 ```python
+# recursion
+# sum of n number
+def fn(n):
+    if n==1:
+        return 1
+    return n + fn(n-1)
+fn(5)
+```
+
+
+
+
+    15
+
+
+
+
+```python
+def fn(n,a):
+    if n<a:
+        return a
+    if n==2:
+        return n
+    return (n+a) + fn(n-1,a)
+
+fn(5,1) # 17 ?
+```
+
+
+
+
+    17
+
+
+
+
+```python
+def fn(a,b):
+    if b==1:
+        return 1
+    return a + b + fn(a+1,b-1) + fn(a,b-1)
+
+fn(5,3) # 27 ?
+```
+
+
+
+
+    27
+
+
+
+
+```python
+def fn(n):
+    # base case
+    if n==0:
+        return 0
+    if n%2==0:
+        return n + fn(n-2)
+    else:
+        return n + fn(n-1)
+fn(10) # 30
+fn(5)
+```
+
+
+
+
+    11
+
+
+
+
+```python
 
 ```
